@@ -1,0 +1,49 @@
+html, body{
+  min-height: 100%;
+  max-width: 100vw;
+  font-size: clamp(9px, 15px, 19px);
+}
+
+/* Making User Interface responsive across all devices */
+
+@media (max-width: 768px){
+  html, body{
+    font-size: clamp(7.5px, 14px, 17.5px);
+  }
+}
+
+@media (max-width: 640px){
+  html, body{
+    font-size: clamp(6.5px, 13px, 16.5px);
+  }
+}
+
+@media (max-width: 375px){
+  html, body{
+    font-size: clamp(5.5px, 10.5px, 14.5px);
+  }
+}
+
+@media (max-width: 225px){
+  html, body{
+    font-size: clamp(3.5px, 6.5px, 10.5px);
+  }
+}
+
+@media (max-width: 150px){
+  html, body{
+    font-size: clamp(2.2px, 4.6px, 7.7px);
+  }
+}
+
+@media (max-width: 110px){
+  html, body{
+    font-size: clamp(1px, 2.3px, 4.3px);
+  }
+}
+
+@media (max-width: 60px){
+  html, body{
+    font-size: clamp(0.85px, 1.7px, 3.7px);
+  }
+}
